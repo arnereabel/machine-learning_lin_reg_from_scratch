@@ -1,7 +1,8 @@
 import seaborn as sns
 import sklearn
+import pandas as pd
 from sklearn.linear_model import LinearRegression
-froms sklearn.datasets import load_boston
+from sklearn.datasets import load_boston
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -22,6 +23,10 @@ print(line_fitter.score(temperature,sales_predict))
 plt.plot(temperature, sales_predict)
 plt.plot(temperature, sales, 'o')
 plt.show()
+
+
+
+
 
 
 
